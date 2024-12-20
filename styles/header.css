@@ -1,0 +1,15 @@
+/* header.css */
+
+/* Style for the header */
+body {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+header {
+    background-color: #706fd3; /* Set the background color to black */
+    padding: 75px; /* Add some padding around the header content */
+}
+
+/* Style the header title (h1) */
+/* hea */
