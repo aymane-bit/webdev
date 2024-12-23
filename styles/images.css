@@ -1,0 +1,8 @@
+/* logo image style */
+
+#logo {
+    width: 80px; /* Set the width of your logo image */
+    height: auto; /* Keep the aspect ratio */
+    padding: 0 40px;
+    position: fixed;
+}

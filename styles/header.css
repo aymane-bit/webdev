@@ -1,15 +1,22 @@
 /* header.css */
 
-/* Style for the header */
+/* Style for the header and body */
 body {
     margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
+    background-color: #56397b;
 }
 
 header {
-    background-color: #706fd3; /* Set the background color to black */
-    padding: 75px; /* Add some padding around the header content */
+    background-color: #1c2130; /* Set the background color */
+    height: 100px; /* Fix the height of the header */
+    padding: 0 20px; /* Use side padding if needed */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Optional: Adjust horizontal layout */
+    overflow: hidden;
 }
+
 
 /* Style the header title (h1) */
 /* hea */
