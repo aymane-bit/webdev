@@ -7,19 +7,52 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/nav_menu.css">
     <link rel="stylesheet" href="styles/images.css">
-
 </head>
-    <body>
-        <Header>
-            <h1 id="slogan">Stay Fresh Smell Better</h1>
-            <img id="logo" src="/images/logo.jpg" alt="Your Logo" />
-            <nav  class="nav_menu">
-                <ul class="nav_menu">
-                    <li><a id="home_link" href="#home">  HOME </a></li>
-                    <li><a id="contact_link" href="#contact us">  CONTACT US </a></li>
-                    <li><a id="about_link" href="#about us">  ABOUT US </a></li>
-                </ul>
-            </nav>
-        </Header>
-    </body>
+<body>
+    <header>
+        <h1 id="slogan">Stay Fresh Smell Better</h1>
+        <img id="logo" src="images/logo.jpg" alt="Your Logo" />
+        <nav class="nav_menu">
+            <ul class="nav_menu">
+                <li><a id="home_link" href="#home">HOME</a></li>
+                <li><a id="contact_link" href="#contact us">CONTACT US</a></li>
+                <li><a id="about_link" href="#about us">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to Our Website</h2>
+            <p>Discover our amazing products and services.</p>
+            <img src="images/hero-image.jpg" alt="Hero Image" />
+        </section>
+
+        <!-- About Section -->
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Quas laborum iure,
+                  ex at placeat est pariatur minima suscipit aut perferendis ipsum totam enim, 
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us.</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
 </html>

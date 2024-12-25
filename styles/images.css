@@ -5,4 +5,5 @@
     height: auto; /* Keep the aspect ratio */
     padding: 0 40px;
     position: fixed;
+    top: 10px;
 }

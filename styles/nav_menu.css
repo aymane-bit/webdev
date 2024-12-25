@@ -65,6 +65,7 @@
 /* slogan style */
 
 #slogan {
+    cursor:default;
     color: #c4a6ff;
     text-align: center;
     display: inline-block; /* Makes sure the element stays on the same line */
